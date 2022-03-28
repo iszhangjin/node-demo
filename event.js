@@ -6,7 +6,6 @@ const EVENT_START = 'start';
 const EVENT_SUCCESS = 'success';
 const EVENT_NOTICE = 'notice';
 const EVENT_MULTIPLE_LISTENTER = 'multiple_listener';
-const EVENT_
 
 // register a listenter on given event and then trigger then event;
 eventEmitter.on(EVENT_START, () => {
